@@ -1,0 +1,99 @@
+.batchform {
+	width: 90%;
+	margin: auto;
+}
+
+.batchform .step_tabs {
+}
+.batchform .step_tabs .step {
+	display: inline-block;
+	padding: 10px 13px;
+	margin-left: 10px;
+	border-left: 1px solid #DBDBDB;
+	border-top: 1px solid #DBDBDB;
+	border-right: 1px solid #DBDBDB;
+	border-bottom: 0px;
+	background-color: #F3F3F3;
+	border-radius: 5px 5px 0px 0px;
+}
+.batchform .step_tabs .step.step_active {
+	border: 1px solid #425995;
+	border-bottom: 0px;
+	background-color: #FFF;
+	font-weight: bold;
+	color: #425995;
+	padding-bottom: 11px;
+	margin-bottom: -1px;
+	box-shadow: 0px -1px 1px #8AC3F0;
+}
+
+.batchform .batch_parts {
+	border: 1px solid #425995;
+	box-shadow: 0px 0px 3px #8AC3F0;
+	text-align: top;
+}
+
+.batchform .batch_parts .batch_part {
+	display: inline-block;
+	width: 49%;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+.batchform .batch_parts h3 {
+	width: 95%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.batchform .batch_parts .batch_part.caveats {
+}
+.batchform .batch_parts .batch_part.caveats ul {
+	padding-top: 16px;
+	width: 95%;
+	margin: auto;
+}
+.batchform .batch_parts .batch_part.caveats ul li {
+	padding-bottom: 8px;
+}
+
+.batchform .batch_parts .form form {
+	width: 95%;
+	margin: auto;
+}
+.batch_parts table.listings td div.cell-content {
+	float: none;
+}
+.batch_parts table.listings td div.cell-content label.unique {
+	font-weight: bold;
+}
+.batch_parts table.listings td div.cell-content div.input {
+	margin-bottom:0;
+	padding-top: 3px;
+	clear:both;
+}
+.batch_parts table.listings td div.cell-content div.input input[disabled="disabled"],
+.batch_parts table.listings td div.cell-content div.input select[disabled="disabled"]{
+	display:none;
+}
+.batch_parts table.listings td div.cell-content span {
+	/*float: left;*/
+	display: block;
+	padding-bottom:5px;
+	min-height: 1.5em;
+}
+.batch_parts table.listings td div.cell-content a.field_button {
+	/*float: right;*/
+	display: inline;
+	padding: 5px 7px;
+background-color: #F6F6F6;
+border: 1px solid #D4D4D4;
+border-radius: 3px;
+text-shadow: 1px 1px 0px #FFF;
+color: #425995;
+font-weight: bold;
+font-size: 90%;
+}
+.batch_parts table.listings td div.cell-content a.field_button.new_button {
+	display:none;
+}
