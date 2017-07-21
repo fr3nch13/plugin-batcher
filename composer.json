@@ -3,7 +3,7 @@
 	"description" : "CakePHP Plugin: Plugin that creates a batch importing wizard.",
 	"type" : "cakephp-plugin",
 	"keywords" : ["cakephp", "plugin", "batcher"],
-	"license": "proprietary",
+	"license": "mit",
 	"authors": [
 		{
 			"name": "Brian French",
