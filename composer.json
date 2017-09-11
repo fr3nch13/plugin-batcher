@@ -1,5 +1,5 @@
 {
-	"name" : "nih-fo/plugin-batcher",
+	"name" : "fr3nch13/plugin-batcher",
 	"description" : "CakePHP Plugin: Plugin that creates a batch importing wizard.",
 	"type" : "cakephp-plugin",
 	"keywords" : ["cakephp", "plugin", "batcher"],
@@ -14,14 +14,8 @@
 			"role": "Manager"
 		} 
 	],
-	"repositories": [
-		{ 
-			"type": "composer", 
-			"url": "https://packagist.org" 
-		}
-	],
 	"require": {
-		"nih-fo/plugin-utilities": "1.*",
-		"nih-fo/plugin-php-excel": "*"
+		"fr3nch13/plugin-utilities": "1.*",
+		"fr3nch13/plugin-php-excel": "*"
 	}
 }
